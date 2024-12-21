@@ -172,6 +172,9 @@ const createWindow = () => {
   })
 
   win.loadFile('index.html')
+
+  // Open the DevTools.
+  win.webContents.openDevTools()
 }
 ```
 
